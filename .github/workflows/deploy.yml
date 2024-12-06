@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '*/1 * * * *'  # 每分钟运行一次
+    - cron: '*/1 * * * *'
 
 jobs:
   deploy:
