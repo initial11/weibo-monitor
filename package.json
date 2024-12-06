@@ -1,0 +1,13 @@
+{
+  "name": "weibo-monitor",
+  "version": "1.0.0",
+  "description": "微博监控系统",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

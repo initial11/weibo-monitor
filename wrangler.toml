@@ -1,0 +1,10 @@
+name = "weibo-monitor"
+main = "src/index.js"
+compatibility_date = "2023-01-01"
+
+kv_namespaces = [
+  { binding = "WEIBO_KV", id = "cc66f65967644b6d9956fc2d80e7ce24" }
+]
+
+[triggers]
+crons = ["* * * * *"]
